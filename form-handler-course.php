@@ -9,6 +9,6 @@ $headers = "From: ".$visitor_email;
 $txt = "You have recived an e-mail from ".$name.".\n\n".$message;
 
 mail($mailTo, $txt, $headers);
-header("Location: contact.html?mailsend");
+header("Location: course.html?mailsend");
 }
 ?>
